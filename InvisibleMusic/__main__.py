@@ -2,7 +2,7 @@ import asyncio
 import importlib
 import os
 import re
-from Yukki.Core.Clients.cli import LOG_CLIENT
+from InvisibleMusic.Core.Clients.cli import LOG_CLIENT
 
 from config import LOG_GROUP_ID
 from pyrogram import filters
@@ -13,17 +13,17 @@ from rich.table import Table
 from youtubesearchpython import VideosSearch
 
 from config import LOG_GROUP_ID, STRING5, STRING4, STRING3, STRING2, STRING1, LOG_SESSION
-from Yukki import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5, LOG_CLIENT,
+from InvisibleMusic import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5, LOG_CLIENT,
                    ASSID1, ASSID2, ASSID3, ASSID4, ASSID5, ASSNAME1, ASSNAME2, OWNER_ID,
                    ASSNAME3, ASSNAME4, ASSNAME5, BOT_ID, BOT_NAME, app)
 
 
-from Yukki.Core.PyTgCalls.Yukki import (pytgcalls1, pytgcalls2, pytgcalls3,
+from InvisibleMusic.Core.PyTgCalls.InvisibleMusic import (pytgcalls1, pytgcalls2, pytgcalls3,
                                         pytgcalls4, pytgcalls5)
-from Yukki.Database import get_active_chats, get_sudoers, remove_active_chat, get_active_video_chats, remove_active_video_chat, is_on_off
-from Yukki.Inline import private_panel
-from Yukki.Plugins import ALL_MODULES
-from Yukki.Utilities.inline import paginate_modules
+from InvisibleMusic.Database import get_active_chats, get_sudoers, remove_active_chat, get_active_video_chats, remove_active_video_chat, is_on_off
+from InvisibleMusic.Inline import private_panel
+from InvisibleMusic.Plugins import ALL_MODULES
+from InvisibleMusic.Utilities.inline import paginate_modules
 
 loop = asyncio.get_event_loop()
 console = Console()
@@ -59,7 +59,7 @@ async def initiate_bot():
         )
         for all_module in ALL_MODULES:
             imported_module = importlib.import_module(
-                "Yukki.Plugins." + all_module
+                "InvisibleMusic.Plugins." + all_module
             )
             if (
                 hasattr(imported_module, "__MODULE__")
@@ -79,10 +79,10 @@ async def initiate_bot():
         console.print("")
         status.update(status="[bold blue]Importation Completed!",)
     console.print(
-        "[bold green]Congrats!! Yukki Music Bot has started successfully!\n"
+        "[bold green]Congrats!! Invisible-Music Music Bot has started successfully!\n"
     )
     try:
-        await app.send_message(LOG_GROUP_ID,"<b>Congrats!! Music Bot has started successfully!</b>",)
+        await app.send_message(LOG_GROUP_ID,"<b>Congrats!! Invisible-Music Bot has started successfully!</b>",)
     except Exception as e:
         print("\nBot has failed to access the log Channel. Make sure that you have added your bot to your log channel and promoted as admin!")
         console.print(f"\n[red]Stopping Bot")
@@ -102,8 +102,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:  
-            await ASS_CLI_1.join_chat("OfficialYukki")
-            await ASS_CLI_1.join_chat("YukkiSupport")
+            await ASS_CLI_1.join_chat("Official_Invisible_LegendBot")
+            await ASS_CLI_1.join_chat("Invisible_LegendBot")
         except:
             pass
         console.print(f"├[red] Assistant 1 Started as {ASSNAME1}!")
@@ -140,8 +140,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_3.join_chat("OfficialYukki")
-            await ASS_CLI_3.join_chat("YukkiSupport")
+            await ASS_CLI_3.join_chat("Official_Invisible_LegendBot")
+            await ASS_CLI_3.join_chat("Invisible_LegendBot")
         except:
             pass
         console.print(f"├[red] Assistant 3 Started as {ASSNAME3}!")
@@ -159,8 +159,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_4.join_chat("OfficialYukki")
-            await ASS_CLI_4.join_chat("YukkiSupport")
+            await ASS_CLI_4.join_chat("Official_Invisible_LegendBot")
+            await ASS_CLI_4.join_chat("Invisible-LegendBot")
         except:
             pass
         console.print(f"├[red] Assistant 4 Started as {ASSNAME4}!")
@@ -178,8 +178,8 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await ASS_CLI_5.join_chat("OfficialYukki")
-            await ASS_CLI_5.join_chat("YukkiSupport")
+            await ASS_CLI_5.join_chat("Official_Invisible_LegendBot")
+            await ASS_CLI_5.join_chat("Invisible_LegendBot")
         except:
             pass
         console.print(f"├[red] Assistant 5 Started as {ASSNAME5}!")
@@ -197,11 +197,11 @@ async def initiate_bot():
             console.print(f"\n[red]Stopping Bot")
             return
         try:
-            await LOG_CLIENT.join_chat("OfficialYukki")
-            await LOG_CLIENT.join_chat("YukkiSupport")
+            await LOG_CLIENT.join_chat("Official_Invisible_LegendBot")
+            await LOG_CLIENT.join_chat("Invisible_LegendBot")
         except:
             pass
-    console.print(f"└[red] Yukki Music Bot Boot Completed.")
+    console.print(f"└[red] Invisible-Music Bot Boot Completed.")
     if STRING1 != "None":
         await pytgcalls1.start()
     if STRING2 != "None":

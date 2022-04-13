@@ -1,7 +1,7 @@
 
 from typing import Dict, List, Union
 
-from Yukki import db
+from InvisibleMusic import db
 
 assisdb = db.assistantmultimode
 

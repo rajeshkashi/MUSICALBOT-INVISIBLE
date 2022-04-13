@@ -21,20 +21,20 @@ from pytgcalls.types.input_stream.quality import (
 from pytgcalls.types.stream import StreamAudioEnded, StreamVideoEnded
 
 from config import get_queue, STRING5, STRING1, STRING2, STRING3, STRING4
-from Yukki import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5,
+from InvisibleMusic import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5,
                    MUSIC_BOT_NAME, app, db_mem)
-from Yukki.Core.PyTgCalls import Queues
-from Yukki.Core.PyTgCalls.Converter import convert
-from Yukki.Core.PyTgCalls.Downloader import download
-from Yukki.Database import get_assistant, remove_active_chat, remove_active_video_chat
-from Yukki.Inline import (audio_markup, audio_timer_markup_start,
+from InvisibleMusic.Core.PyTgCalls import Queues
+from InvisibleMusic.Core.PyTgCalls.Converter import convert
+from InvisibleMusic.Core.PyTgCalls.Downloader import download
+from InvisibleMusic.Database import get_assistant, remove_active_chat, remove_active_video_chat
+from InvisibleMusic.Inline import (audio_markup, audio_timer_markup_start,
                           primary_markup, timer_markup)
-from Yukki.Utilities.changers import time_to_seconds
-from Yukki.Utilities.chat import specialfont_to_normal
-from Yukki.Utilities.theme import check_theme
-from Yukki.Utilities.thumbnails import gen_thumb
-from Yukki.Utilities.timer import start_timer
-from Yukki.Utilities.youtube import get_yt_info_id, get_m3u8
+from InvisibleMusic.Utilities.changers import time_to_seconds
+from InvisibleMusic.Utilities.chat import specialfont_to_normal
+from InvisibleMusic.Utilities.theme import check_theme
+from InvisibleMusic.Utilities.thumbnails import gen_thumb
+from InvisibleMusic.Utilities.timer import start_timer
+from InvisibleMusic.Utilities.youtube import get_yt_info_id, get_m3u8
 
 
 ### Clients

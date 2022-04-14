@@ -50,3 +50,4 @@ async def specialfont_to_normal(ctitle):
         string = string.replace(font31L[cout], normalL[cout])
         cout += 1
     return string
+

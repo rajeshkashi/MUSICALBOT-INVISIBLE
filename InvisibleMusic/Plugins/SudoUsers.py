@@ -9,8 +9,8 @@ from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from Yukki import BOT_ID, MUSIC_BOT_NAME, OWNER_ID, SUDOERS, app, BOT_USERNAME
-from Yukki.Database import (add_gban_user, add_off, add_on, add_sudo, set_video_limit,
+from InvisibleMusic import BOT_ID, MUSIC_BOT_NAME, OWNER_ID, SUDOERS, app, BOT_USERNAME
+from InvisibleMusic.Database import (add_gban_user, add_off, add_on, add_sudo, set_video_limit,
                             get_active_chats, get_served_chats, get_sudoers,
                             is_gbanned_user, remove_active_chat,
                             remove_gban_user, remove_served_chat, remove_sudo)

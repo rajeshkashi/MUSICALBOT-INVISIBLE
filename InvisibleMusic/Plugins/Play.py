@@ -6,25 +6,25 @@ from pyrogram.types import (InlineKeyboardMarkup, InputMediaPhoto, Message,
                             Voice)
 from youtube_search import YoutubeSearch
 
-from Yukki import (BOT_USERNAME, DURATION_LIMIT, DURATION_LIMIT_MIN,
+from InvisibleMusic import (BOT_USERNAME, DURATION_LIMIT, DURATION_LIMIT_MIN,
                    MUSIC_BOT_NAME, app, db_mem)
-from Yukki.Core.PyTgCalls.Converter import convert
-from Yukki.Core.PyTgCalls.Downloader import download
-from Yukki.Decorators.assistant import AssistantAdd
-from Yukki.Decorators.checker import checker
-from Yukki.Decorators.logger import logging
-from Yukki.Decorators.permission import PermissionCheck
-from Yukki.Database import get_video_limit, get_active_video_chats, is_active_video_chat
-from Yukki.Inline import (playlist_markup, search_markup, search_markup2, livestream_markup,
+from InvisibleMusic.Core.PyTgCalls.Converter import convert
+from InvisibleMusic.Core.PyTgCalls.Downloader import download
+from InvisibleMusic.Decorators.assistant import AssistantAdd
+from InvisibleMusic.Decorators.checker import checker
+from InvisibleMusic.Decorators.logger import logging
+from InvisibleMusic.Decorators.permission import PermissionCheck
+from InvisibleMusic.Database import get_video_limit, get_active_video_chats, is_active_video_chat
+from InvisibleMusic.Inline import (playlist_markup, search_markup, search_markup2, livestream_markup,
                           url_markup, url_markup2)
-from Yukki.Utilities.changers import seconds_to_min, time_to_seconds
-from Yukki.Utilities.chat import specialfont_to_normal
-from Yukki.Utilities.stream import start_stream, start_stream_audio
-from Yukki.Utilities.videostream import start_stream_video
-from Yukki.Utilities.theme import check_theme
-from Yukki.Utilities.thumbnails import gen_thumb
-from Yukki.Utilities.url import get_url
-from Yukki.Utilities.youtube import (get_yt_info_id, get_yt_info_query,
+from InvisibleMusic.Utilities.changers import seconds_to_min, time_to_seconds
+from InvisibleMusic.Utilities.chat import specialfont_to_normal
+from InvisibleMusic.Utilities.stream import start_stream, start_stream_audio
+from InvisibleMusic.Utilities.videostream import start_stream_video
+from InvisibleMusic.Utilities.theme import check_theme
+from InvisibleMusic.Utilities.thumbnails import gen_thumb
+from InvisibleMusic.Utilities.url import get_url
+from InvisibleMusic.Utilities.youtube import (get_yt_info_id, get_yt_info_query,
                                      get_yt_info_query_slider)
 
 loop = asyncio.get_event_loop()

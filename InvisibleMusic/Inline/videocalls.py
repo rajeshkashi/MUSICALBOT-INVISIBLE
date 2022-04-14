@@ -59,5 +59,6 @@ def stream_quality_markup(videoid, duration, user_id):
                 callback_data=f"forceclose {videoid}|{user_id}",
             )
         ],
+      
     ]
     return buttons

@@ -7,29 +7,29 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
 
 from config import get_queue
-from Yukki import BOT_USERNAME, MUSIC_BOT_NAME, app, db_mem
-from Yukki.Core.PyTgCalls import Queues
-from Yukki.Core.PyTgCalls.Converter import convert
-from Yukki.Core.PyTgCalls.Downloader import download
-from Yukki.Core.PyTgCalls.Yukki import (join_stream, pause_stream, skip_video_stream,
+from InvisibleMusic import BOT_USERNAME, MUSIC_BOT_NAME, app, db_mem
+from InvisibleMusic.Core.PyTgCalls import Queues
+from InvisibleMusic.Core.PyTgCalls.Converter import convert
+from InvisibleMusic.Core.PyTgCalls.Downloader import download
+from InvisibleMusic.Core.PyTgCalls.Yukki import (join_stream, pause_stream, skip_video_stream,
                                         resume_stream, skip_stream,
                                         stop_stream)
-from Yukki.Database import (_get_playlists, delete_playlist, get_playlist,
+from InvisibleMusic.Database import (_get_playlists, delete_playlist, get_playlist,
                             get_playlist_names, is_active_chat, save_playlist)
-from Yukki.Database.queue import (add_active_chat, is_active_chat,
+from InvisibleMusic.Database.queue import (add_active_chat, is_active_chat,
                                   is_music_playing, music_off, music_on,
                                   remove_active_chat)
-from Yukki.Decorators.admins import AdminRightsCheckCB
-from Yukki.Decorators.checker import checkerCB
-from Yukki.Inline import (audio_markup, audio_markup2, download_markup, secondary_markup2,
+from InvisibleMusic.Decorators.admins import AdminRightsCheckCB
+from InvisibleMusic.Decorators.checker import checkerCB
+from InvisibleMusic.Inline import (audio_markup, audio_markup2, download_markup, secondary_markup2,
                           fetch_playlist, paste_queue_markup, primary_markup)
-from Yukki.Utilities.changers import time_to_seconds
-from Yukki.Utilities.chat import specialfont_to_normal
-from Yukki.Utilities.paste import isPreviewUp, paste_queue
-from Yukki.Utilities.theme import check_theme
-from Yukki.Utilities.thumbnails import gen_thumb
-from Yukki.Utilities.timer import start_timer
-from Yukki.Utilities.youtube import get_yt_info_id, get_m3u8
+from InvisibleMusic.Utilities.changers import time_to_seconds
+from InvisibleMusic.Utilities.chat import specialfont_to_normal
+from InvisibleMusic.Utilities.paste import isPreviewUp, paste_queue
+from InvisibleMusic.Utilities.theme import check_theme
+from InvisibleMusic.Utilities.thumbnails import gen_thumb
+from InvisibleMusic.Utilities.timer import start_timer
+from InvisibleMusic.Utilities.youtube import get_yt_info_id, get_m3u8
 
 loop = asyncio.get_event_loop()
 

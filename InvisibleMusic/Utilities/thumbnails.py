@@ -41,3 +41,4 @@ async def gen_thumb(thumbnail, title, userid, theme, ctitle):
     os.remove(f"cache/thumb{userid}.jpg")
     final = f"cache/final{userid}.png"
     return final
+

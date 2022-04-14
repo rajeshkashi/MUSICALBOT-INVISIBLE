@@ -45,3 +45,4 @@ def seconds_to_min(seconds):
         elif s > 0:
             return "00:{:02d}".format(s)
     return "-"
+

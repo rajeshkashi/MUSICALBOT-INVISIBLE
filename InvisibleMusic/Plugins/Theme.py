@@ -2,9 +2,9 @@ from typing import Dict, List, Union
 
 from pyrogram import Client, filters
 
-from Yukki import BOT_USERNAME, MUSIC_BOT_NAME, app, db
-from Yukki.Database import _get_theme, get_theme, save_theme
-from Yukki.Decorators.permission import PermissionCheck
+from InvisibleMusic import BOT_USERNAME, MUSIC_BOT_NAME, app, db
+from InvisibleMusic.Database import _get_theme, get_theme, save_theme
+from InvisibleMusic.Decorators.permission import PermissionCheck
 
 themes = [
     "blue",

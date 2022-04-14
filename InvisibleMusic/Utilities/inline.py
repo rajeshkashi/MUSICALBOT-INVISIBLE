@@ -2,7 +2,7 @@ from math import ceil
 
 from pyrogram.types import InlineKeyboardButton
 
-from Yukki import MOD_LOAD, MOD_NOLOAD
+from InvisibleMusic import MOD_LOAD, MOD_NOLOAD
 
 
 class EqInlineKeyboardButton(InlineKeyboardButton):
@@ -88,3 +88,4 @@ def paginate_modules(page_n, module_dict, prefix, chat=None):
 
 def is_module_loaded(name):
     return (not MOD_LOAD or name in MOD_LOAD) and name not in MOD_NOLOAD
+

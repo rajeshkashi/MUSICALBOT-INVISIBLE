@@ -9,22 +9,22 @@ from pyrogram import filters
 from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
                             InlineKeyboardMarkup, InputMediaPhoto, Message)
 
-from Yukki import ASSIDS, BOT_ID, MUSIC_BOT_NAME, OWNER_ID, SUDOERS, app, random_assistant
-from Yukki import boottime as bot_start_time
-from Yukki import db
-from Yukki.Core.PyTgCalls import Yukki
-from Yukki.Database import (add_nonadmin_chat, add_served_chat,
+from InvisibleMusic import ASSIDS, BOT_ID, MUSIC_BOT_NAME, OWNER_ID, SUDOERS, app, random_assistant
+from InvisibleMusic import boottime as bot_start_time
+from InvisibleMusic import db
+from InvisibleMusic.Core.PyTgCalls import Yukki
+from InvisibleMusic.Database import (add_nonadmin_chat, add_served_chat,
                             blacklisted_chats, get_assistant, get_authuser,
                             get_authuser_names, get_start, is_nonadmin_chat,
                             is_served_chat, remove_active_chat,
                             remove_nonadmin_chat, save_assistant, save_start)
-from Yukki.Decorators.admins import ActualAdminCB
-from Yukki.Decorators.permission import PermissionCheck
-from Yukki.Inline import (custommarkup, dashmarkup, setting_markup,
+from InvisibleMusic.Decorators.admins import ActualAdminCB
+from InvisibleMusic.Decorators.permission import PermissionCheck
+from InvisibleMusic.Inline import (custommarkup, dashmarkup, setting_markup,
                           setting_markup2, start_pannel, usermarkup,
                           volmarkup)
-from Yukki.Utilities.assistant import get_assistant_details
-from Yukki.Utilities.ping import get_readable_time
+from InvisibleMusic.Utilities.assistant import get_assistant_details
+from InvisibleMusic.Utilities.ping import get_readable_time
 
 welcome_group = 2
 

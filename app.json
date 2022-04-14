@@ -65,7 +65,7 @@
       "value": "",
       "required": true
     },
-    "INVISIBLE_SESSION1": {
+    "STRING_SESSION1": {
       "description": "A Pyrogram String Session. One Assistant is Compulsory.",
       "value": "",
       "required": true

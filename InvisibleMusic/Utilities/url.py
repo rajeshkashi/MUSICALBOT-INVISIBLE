@@ -22,3 +22,4 @@ def get_url(message_1: Message) -> Union[str, None]:
     if offset in (None,):
         return None
     return text[offset : offset + length]
+

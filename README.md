@@ -22,8 +22,8 @@
 
 <p align="center">
     A Support Group and ready-to-use running instance of this bot can be found on Telegram <br>
-    <a href="https://t.me/MR_INVISIBLE_OFFICIAL"> TheExpertMusicBot </a> |
-    <a href="https://t.me/MR_INVISIBLE_OFFICIAL"> InvisibleSupport </a>
+    <a href="https://t.me/MRINVISIBLE_OFFICIAL"> TheExpertMusicBot </a> |
+    <a href="https://t.me/MRINVISIBLE_OFFICIAL"> InvisibleSupport </a>
 </p>
     
 <h1 align="center">
@@ -66,14 +66,14 @@ bash start
 ## 🔗 Generating Pyrogram Session
 <p>
 <a href="https://replit.com/@AaravxD/PyroStringSession#main.py"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="245""/></a>
-<a href="https://t.me/MR_INVISIBLE_OFFICIALt"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="245""/></a></p>
+<a href="https://t.me/MRINVISIBLE_OFFICIAL"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="245""/></a></p>
 
 ## Contact & Support
 
 
-- [Telegram Channel](https://t.me/MR_INVISIBLE_OFFICIAL")
+- [Telegram Channel](https://t.me/MRINVISIBLE_OFFICIAL")
 - [Telegram Support Group](https://t.me/Invisible_LegendBot)
-- [Contact Owner](https://t.me/MR_INVISIBLE_OFFICIAL)
+- [Contact Owner](https://t.me/MRINVISIBLE_OFFICIAL)
 
 ## Why TheExpert?
     

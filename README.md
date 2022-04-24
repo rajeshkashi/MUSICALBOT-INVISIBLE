@@ -61,7 +61,7 @@ bash start
 
 ## 🔗 Deploy on Heroku
 <p>
-<a href="https://heroku.com/deploy?template=https://github.com/MR-INVISIBLEBOY/MUSICALBOT-INVISIBLE"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>  </p>
+<a href="https://heroku.com/deploy?template=https://github.com/balnk_r/MUSICALBOT-INVISIBLE"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="250""/</a>  </p>
 
 ## 🔗 Generating Pyrogram Session
 <p>
